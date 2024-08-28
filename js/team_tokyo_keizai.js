@@ -1,15 +1,15 @@
 // 変更項目index.htmlファイルで設定したidを以下の('')内に記述してください
-var ctx = document.getElementById("myRadarChart");
+var ctx = document.getElementById("tokyo_keizai");
 var myRadarChart = new Chart(ctx, {
   // !!以下のtypeは共通の為触れないでください
   type: "radar",
   data: {
     //変更項目　　　データの各項目のラベルを設定してください(上から時計回り)
-    labels: ["オンオフの切り替え", "スカルの熟練度", "身長", "時間を守る", "ボート好き"],
+    labels: ["仲の良さ", "メリハリ", "フィジカル", "向上心", "オーラ"],
     datasets: [
       {
         //変更項目　上記のlabelsで設定した項目の数値を設定できます(上から時計回り)
-        data: [3, 4, 5, 2, 4],
+        data: [5, 4, 2, 5, 2],
         // !!以下3行共通の為触れないでください
         borderColor: "transparent",
         pointBackgroundColor: "rgba(11, 89, 191, 0.5)",
