@@ -2105,7 +2105,7 @@ p.special_p {
 }
 .flex .image {
   width: 640px; /*画像サイズ指定*/
-  margin: 0;
+  margin-top: 56px;
   padding: 0;
 }
 .flex .image img {
@@ -2113,8 +2113,9 @@ p.special_p {
   height: auto;
 }
 .flex .text {
-  margin: 0 0 0 20px;
   padding: 0;
+  margin-top: 56px;
+  margin-left: 20px;
 }
 
 body {
@@ -2123,8 +2124,14 @@ body {
 }
 
 .text{
-  font-size: 15px;
+  font-size: 17px;
   line-height: 2.0;
   color: #003e92;
   font-family: "Manrope", sans-serif;
+  padding-top: 20px;
+}
+.message{
+  font-size: 13px;
+  padding-top: 10px;
+  line-height: 2.0;
 }
