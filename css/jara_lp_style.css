@@ -2098,3 +2098,33 @@ p.special_p {
   color: #004fb9;
   text-decoration: underline;
 }
+
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 640px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+}
+.flex .image img {
+  width: 100%;
+  height: auto;
+}
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+}
+
+.text{
+  font-size: 15px;
+  line-height: 2.0;
+  color: #003e92;
+  font-family: "Manrope", sans-serif;
+}
