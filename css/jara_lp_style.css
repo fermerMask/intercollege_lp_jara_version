@@ -2099,6 +2099,7 @@ p.special_p {
   text-decoration: underline;
 }
 
+/*以下　武田記入です*/
 
 .flex {
   display: flex; /*横並び*/
@@ -2134,4 +2135,55 @@ body {
   font-size: 13px;
   padding-top: 10px;
   line-height: 2.0;
+}
+
+.mayor_btn{
+  
+  text-align: center;
+  margin-top: 16px;
+
+}
+.mayor_btn img {
+  width: 300px; /* ボタンの幅を指定 */
+  height: auto; /* 比率を保ちながら高さを自動調整 */
+  max-width: 100%; /* レスポンシブ対応 */
+}
+
+/* 必要に応じて、他のプロパティも設定 */
+.mayor_btn img:hover {
+  opacity: 0.8; /* ホバー時のエフェクトを追加 */
+}
+
+.youtube_btn{
+  position: absolute;
+  padding-top: 30px; /* ボタンの縦方向の位置を調整 */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+.youtube_btn i{
+  margin-right: 10px;
+}
+
+.btn-lg{
+  width: 300px;
+  height: auto;
+
+}
+.stylish-btn {
+  background: linear-gradient(135deg, #5f8aff, #7bd9fe); /* グラデーション背景 */
+  color: white; /* 文字色 */
+  padding: 15px 30px; /* ボタンのパディング */
+  font-size: 30px; /* 文字サイズ */
+  border: none; /* ボーダーを消す */
+  border-radius: 50px; /* 丸みを帯びた角 */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ボックスシャドウ */
+  transition: all 0.3s ease; /* トランジション効果 */
+  text-decoration: none; /* テキストの下線を消す */
+}
+
+.stylish-btn:hover {
+  background: linear-gradient(135deg, #7bd9fe, #5f8aff); /* ホバー時のグラデーション反転 */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* ホバー時のシャドウを増加 */
+  transform: scale(1.05); /* ホバー時に少し拡大 */
 }
